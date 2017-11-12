@@ -1,13 +1,3 @@
-const figlet = require('figlet');
+const fig = require('./lib/fig');
 
-const options = {
-  font: 'Slant',
-  horizontalLayout: 'default',
-  verticalLayout: 'default'
-};
-
-let renderText = function(text, opt) {
-  return figlet.textSync(text, opt);
-};
-
-console.log(renderText('Hello', options));
+console.log(fig.render('Hello'));
