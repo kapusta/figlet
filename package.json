@@ -1,14 +1,14 @@
 {
-  "name": "sdf",
+  "name": "figlet-hax",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node app to play with various things.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "eslint ./ --ext .js || exit 0",
     "eslint": "eslint ./ --ext .js || exit 0"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Kapusta",
+  "license": "Apache 2.0",
   "dependencies": {
     "figlet": "^1.2.0"
   },
