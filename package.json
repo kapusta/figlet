@@ -1,6 +1,6 @@
 {
   "name": "figlet-hax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node app to play with various things.",
   "main": "index.js",
   "scripts": {
