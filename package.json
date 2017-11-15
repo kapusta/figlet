@@ -4,7 +4,7 @@
   "description": "A node app to play with various things.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ./ --ext .js || exit 0",
+    "test": "xo",
     "eslint": "eslint ./ --ext .js || exit 0"
   },
   "author": "Daniel Kapusta",
@@ -14,6 +14,10 @@
   },
   "devDependencies": {
     "eslint": "^4.11.0",
-    "eslint-plugin-node": "^5.2.1"
+    "eslint-plugin-node": "^5.2.1",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true
   }
 }
